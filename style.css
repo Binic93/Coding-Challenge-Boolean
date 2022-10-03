@@ -1,0 +1,81 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/* BACKGROUND SFUMATO */
+.container{
+  width: 1275px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px;
+  background-color:rgba(0, 0, 0, 0.5); /* QUI */
+  border-radius: 15px;
+}
+/* LOGO E TITOLO */
+header, nav{
+  text-align: center;
+}
+.logo{
+  width: 250px;
+}
+.title{
+  color: #00f710;
+}
+/* MENU INTERATTIVO */
+nav{
+  background-color: #00f710;
+  padding: 10px;
+  border-radius: 10px;
+}
+form{
+  display: inline;
+}
+main, nav{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* INDICAZIONI E GRAFICI MONOPATTINI */
+main, footer{
+  color: white;
+}
+main > div{
+  padding-top: 3px;
+  padding-right: 5px;
+  border-radius: 5px;
+  text-align: right;
+  height: 25px;
+  margin-top: 3px;
+}
+main > span{
+  display: block;
+}
+main > input{
+  margin-left: 0px;
+}
+main > h2{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.primografico{
+  background-color: orange;
+  width: 42%;
+}
+.secondografico{
+  background-color: green;
+  width: 75%;
+}
+.terzografico{
+  background-color: red;
+  width: 13%;
+}
+/* CREDITI FINALI */
+footer{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
